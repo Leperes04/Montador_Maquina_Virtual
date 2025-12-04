@@ -1,0 +1,15 @@
+val1 WORD 15
+val2 WORD 25
+val3 WORD 60
+START:  MV R1, val1
+        MV R2, val2
+        ADD R0, R1, R2
+        BEQ R0, R1, IGUAL
+        BGT R0, R1, MAIOR
+        BLT R0, R1, MENOR
+IGUAL:  OUT R2
+        STP
+MAIOR:  OUT R0
+        STP
+MENOR:  OUT R1
+        STP
