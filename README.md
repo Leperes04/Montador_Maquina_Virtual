@@ -35,8 +35,8 @@ Arquitetura de Computadores: Mapeamento de memória, registradores, opcodes e en
 Engenharia de Software: Manipulação de arquivos, estruturas de dados (structs), parsing de tokens e lógica de compiladores/montadores.
 
 📋 Como funciona o fluxo?
-O código Assembly é escrito em um arquivo de texto.
+1. O código Assembly é escrito em um arquivo de texto.
 
-O Montador lê o código, gera a tabela de labels e exporta um arquivo numérico (saidaCerta.txt).
+2. O Montador lê o código, gera a tabela de labels e exporta um arquivo numérico (saidaCerta.txt).
 
-O Simulador carrega esse arquivo para a memória virtual e executa as instruções passo a passo, exibindo os estados dos registradores e os resultados na saída padrão.
+3. O Simulador carrega esse arquivo para a memória virtual e executa as instruções passo a passo, exibindo os estados dos registradores e os resultados na saída padrão.
